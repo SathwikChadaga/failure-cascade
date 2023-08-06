@@ -1,0 +1,1 @@
+Cascade data to train and test the GNN model will be saved here. See 'convert-data-to-numpy.ipynb' notebook in 'matlabmodels' folder.
