@@ -18,7 +18,7 @@ After setting up the MATPOWER toolbox, the following files within the matlabmode
 
 
 ## gnnmodel
-Before running these files, cascade sequence data needs to generated and converted to .npy format and saved in the gnnmodel/data folder. Data generation can be done using matlabmodels/generateData.m file. Conversion to .npy format can be done using matlabmodels/convert-data-to-numpy.ipnyb file; this file saves the cascade data in .npy format in gnnmodels/data folder. The files in this folder use the Pytorch library. The files in this folder also require wandb (https://wandb.ai/site) to perform hyperparameter sweep and logging the progress.
+Before running these files, cascade sequence data needs to generated and converted to .npy format and saved in the gnnmodel/data folder. Data generation can be done using matlabmodels/generateData.m file. Conversion to .npy format can be done using matlabmodels/convert-data-to-numpy.ipnyb file; this file saves the cascade data in .npy format in gnnmodels/data folder. The files in this folder use the Pytorch library (https://pytorch.org/). The files in this folder also require wandb (https://wandb.ai/site) to perform hyperparameter sweep and logging the progress.
 
 Once the data is generated properly, the files of this folder can be used for the following purposes:
 1. gnn-cascade-89-random.ipnyb This notebook trains a GNN model for the IEEE89 dataset. If save is enabled, it saves the weights in the gnnmodel/weights folder.
@@ -27,7 +27,7 @@ Once the data is generated properly, the files of this folder can be used for th
 4. gnn-cascade-118-random.ipnyb This notebook performs a hyperparameter sweep on the GNN model for the IEEE118 dataset.
 
 ## mlmodels folder
-Before running these files, cascade sequence data needs to generated and converted to .npy format and saved in the gnnmodel/data folder. The files in this folder use the scikit-learn library. The files in this folder also require wandb (https://wandb.ai/site) to perform hyperparameter sweep.
+Before running these files, cascade sequence data needs to generated and converted to .npy format and saved in the gnnmodel/data folder. The files in this folder use the scikit-learn library (https://scikit-learn.org/stable/). The files in this folder also require wandb (https://wandb.ai/site) to perform hyperparameter sweep.
 
 Once the data is generated properly, the files of this folder can be used for the following purposes:
 1. top-ml.ipnyb This notebook trains ML models. If save is enabled, it saves the weights in the mlmodels/models folder.
