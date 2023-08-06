@@ -17,7 +17,7 @@ After setting up the MATPOWER toolbox, the following files within the matlabmode
 4. convert-data-to-numpy.ipnyb This notebook converts all the saved data from .mat to .npy; this file saves the data in .npy format in gnnmodels/data folder. It is necessary to run this file before running other models implemented in Python.
 
 
-## gnnmodel
+## gnnmodel folder
 Before running these files, cascade sequence data needs to generated and converted to .npy format and saved in the gnnmodel/data folder. Data generation can be done using matlabmodels/generateData.m file. Conversion to .npy format can be done using matlabmodels/convert-data-to-numpy.ipnyb file; this file saves the cascade data in .npy format in gnnmodels/data folder. The files in this folder use the Pytorch library (https://pytorch.org/). The files in this folder also require wandb (https://wandb.ai/site) to perform hyperparameter sweep and logging the progress.
 
 Once the data is generated properly, the files of this folder can be used for the following purposes:
@@ -33,10 +33,10 @@ Once the data is generated properly, the files of this folder can be used for th
 1. top-ml.ipnyb This notebook trains ML models. If save is enabled, it saves the weights in the mlmodels/models folder.
 3. top-ml-sweep.ipnyb This notebook performs a hyperparameter sweep on the ML models.
 
-## influencemodel
+## influencemodel folder
 Before running the files in this folder, influence model weights need to be calculated and converted to .npy format. Influence model weights can be learnt using matlabmodels/calculateIMParams.m file. Conversion to .npy format can be done using matlabmodels/convert-data-to-numpy.ipnyb file; this file saves the influence model weights in .npy format in influencemodel/data folder.
 
 The influence-model.ipnyb file in this folder defines classes in Python to run the influence model in Python. These will be useful when generating results in the next step.
 
-## results
+## results folder
 This folder contains some files to generate results. Before running these files, all the previous codes should have been run properly so that the test data are generated and saved, and the model parameters are trained and saved. 
