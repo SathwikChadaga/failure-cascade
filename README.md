@@ -5,7 +5,7 @@ Power Failure Cascade Prediction using Machine Techniques. The routine is ordere
 2. `./gnnmodel` folder contains files to train the GNN model. It also shows some preliminary results for the GNN model.
 3. `./mlmodels` folder contains files to train the ML models. It also shows some preliminary results for the ML models.
 4. `./influencemodel` folder contains  classes to test the Influence model in Python.
-5. `./results` folder contains files to generate the results.
+5. `./results` folder contains files to generate detailes results for all the above models.
 
 ## `./matlabmodels` folder
 Before running these files, MATPOWER toolbox (https://matpower.org/) needs to be installed. And its files should be placed in the `./matlabmodels/utils` folder. 
