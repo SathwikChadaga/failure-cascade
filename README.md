@@ -1,5 +1,5 @@
-# failure-cascade
-Power Failure Cascade Prediction using Machine Techniques. Please refer to the following papers for a detailed explanation of the underlying models.
+# Power Failure Cascade Prediction using Machine Learning Techniques. 
+Please refer to the following papers for a detailed explanation of the underlying models.
 
 \[1\] X. Wu, D. Wu and E. Modiano, "Predicting Failure Cascades in Large Scale Power Systems via the Influence Model Framework," in IEEE Transactions on Power Systems, vol. 36, no. 5, pp. 4778-4790, Sept. 2021, doi: 10.1109/TPWRS.2021.3068409.
 
