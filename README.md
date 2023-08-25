@@ -1,5 +1,8 @@
 # failure-cascade
-Power Failure Cascade Prediction using Machine Techniques. The routine is ordered as follows.
+Power Failure Cascade Prediction using Machine Techniques. The code is used to generate results in the following papers, please refer to them for a detailed explanation of the underlying models.
+\[1\] X. Wu, D. Wu and E. Modiano, "Predicting Failure Cascades in Large Scale Power Systems via the Influence Model Framework," in IEEE Transactions on Power Systems, vol. 36, no. 5, pp. 4778-4790, Sept. 2021, doi: 10.1109/TPWRS.2021.3068409.
+
+Files in different folders perform different tasks as summarized in the following list. The list is also ordered in the same order as the files are supposed to be run.
 
 1. `./matlabmodels` folder contains MATLAB models that generate data to train and test rest of the models. This folder also contains files to train the benchamark Influence model. To know more about these models, refer to \[1\].
 2. `./gnnmodel` folder contains files to train the GNN model. It also shows some preliminary results for the GNN model.
