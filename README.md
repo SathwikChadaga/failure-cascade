@@ -9,7 +9,7 @@ Files in different folders perform different tasks as summarized in the followin
 1. `./matlabmodels` folder contains MATLAB models that generate data to train and test rest of the models. This folder also contains files to train the benchamark Influence model. To know more about these models, refer to \[1\].
 2. `./gnnmodel` folder contains files to train the GNN model. It also shows some preliminary results for the GNN model.
 3. `./mlmodels` folder contains files to train the ML models. It also shows some preliminary results for the ML models.
-4. `./influencemodel` folder contains  classes to test the Influence model in Python.
+4. `./influencemodel` folder contains  classes to test the Influence model in Python. To know more about these models, refer to \[1\].
 5. `./results` folder contains files to generate detailed results for all the above models.
 
 ## `./matlabmodels` folder
