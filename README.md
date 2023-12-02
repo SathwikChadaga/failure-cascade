@@ -2,6 +2,7 @@
 Please refer to the following papers for the problem formulation, a detailed explanation of the underlying models, and a discussion on the results.
 
 \[1\] S. P. Chadaga, “Power Failure Cascade Prediction using Machine Learning,” Thesis, Massachusetts Institute of Technology, 2023. Accessed: Dec. 01, 2023. [Online]. Available: https://dspace.mit.edu/handle/1721.1/152673
+
 \[2\] X. Wu, D. Wu and E. Modiano, "Predicting Failure Cascades in Large Scale Power Systems via the Influence Model Framework," in IEEE Transactions on Power Systems, vol. 36, no. 5, pp. 4778-4790, Sept. 2021, doi: 10.1109/TPWRS.2021.3068409.
 
 ## Outline 
