@@ -1,7 +1,7 @@
 # Power Failure Cascade Prediction using Machine Learning Techniques
 Please refer to the following papers for the problem formulation, a detailed explanation of the underlying models, and a discussion on the results.
 
-\[1\] S. Chadaga, X. Wu and E. Modiano, "Power Failure Cascade Prediction using Graph Neural Networks," 2023 IEEE International Conference on Communications, Control, and Computing Technologies for Smart Grids (SmartGridComm), Glasgow, United Kingdom, 2023, pp. 1-7, doi: 10.1109/SmartGridComm57358.2023.10333943.
+\[1\] S. Chadaga, X. Wu and E. Modiano, "Power Failure Cascade Prediction using Graph Neural Networks," 2023 IEEE International Conference on Communications, Control, and Computing Technologies for Smart Grids (SmartGridComm), Glasgow, United Kingdom, 2023, pp. 1-7, doi: 10.1109/SmartGridComm57358.2023.10333943. URL: https://ieeexplore.ieee.org/abstract/document/10333943.
 
 \[2\] S. P. Chadaga, “Power Failure Cascade Prediction using Machine Learning,” Thesis, Massachusetts Institute of Technology, 2023. Accessed: Dec. 01, 2023. [Online]. Available: https://dspace.mit.edu/handle/1721.1/152673
 
