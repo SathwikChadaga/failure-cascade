@@ -10,10 +10,10 @@ Please refer to the following papers for the problem formulation, a detailed exp
 ## Outline 
 Files in different folders perform different tasks as summarized in the following list. The list is also ordered in the same order as the files are supposed to be run.
 
-1. `./matlabmodels` folder contains MATLAB models that generate data to train and test rest of the models. This folder also contains files to train the benchamark Influence model. To know more about these models, refer to \[1\].
+1. `./matlabmodels` folder contains MATLAB models that generate data to train and test rest of the models. This folder also contains files to train the benchamark Influence model. To know more about these models, refer to \[3\].
 2. `./gnnmodel` folder contains files to train the GNN model. It also shows some preliminary results for the GNN model.
 3. `./mlmodels` folder contains files to train the ML models. It also shows some preliminary results for the ML models.
-4. `./influencemodel` folder contains  classes to test the Influence model in Python. To know more about these models, refer to \[1\].
+4. `./influencemodel` folder contains  classes to test the Influence model in Python. To know more about these models, refer to \[3\].
 5. `./results` folder contains files to generate detailed results for all the above models.
 
 ## `./matlabmodels` folder
